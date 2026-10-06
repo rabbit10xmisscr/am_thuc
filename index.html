@@ -1,0 +1,1977 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ăn Ngon – Giá Mềm: Khám Phá Ẩm Thực Hà Nội 2026</title>
+  <meta name="description" content="Cẩm nang 29 quán ăn ngon, rẻ và đáng thử nhất tại Hà Nội. Đầy đủ Phố Cổ, Hồ Tây, Chuyên đề Lẩu bình dân & Lẩu Ven Hồ Tây được kiểm chứng 100% từ Google Maps, Michelin Guide, Foody.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --primary: #B91C1C;
+      --primary-dark: #991B1B;
+      --primary-light: #FEE2E2;
+      --amber: #D97706;
+      --amber-light: #FEF3C7;
+      --emerald: #059669;
+      --emerald-light: #D1FAE5;
+      --dark: #0F172A;
+      --slate: #1E293B;
+      --muted: #64748B;
+      --light-gray: #F1F5F9;
+      --border: #E2E8F0;
+      --card-bg: #FFFFFF;
+      --bg: #F8FAFC;
+      --card-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.08);
+      --card-hover-shadow: 0 16px 32px -4px rgba(185, 28, 28, 0.14);
+      --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      --font-serif: 'Playfair Display', Georgia, serif;
+      --radius: 16px;
+      --transition: all 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme="dark"] {
+      --bg: #0B0F19;
+      --card-bg: #131B2E;
+      --dark: #F8FAFC;
+      --slate: #CBD5E1;
+      --muted: #94A3B8;
+      --light-gray: #1E293B;
+      --border: #26334D;
+      --card-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.4);
+      --card-hover-shadow: 0 16px 36px -4px rgba(220, 38, 38, 0.25);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-main);
+      background-color: var(--bg);
+      color: var(--dark);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      overflow-x: hidden;
+    }
+
+    /* Top Red Accent Bar */
+    .top-accent-bar {
+      height: 4px;
+      background: linear-gradient(90deg, #B91C1C, #EF4444, #F59E0B, #B91C1C);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* Header Nav */
+    header.site-header {
+      position: sticky;
+      top: 4px;
+      z-index: 999;
+      background: rgba(255, 255, 255, 0.88);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid var(--border);
+      transition: var(--transition);
+    }
+    [data-theme="dark"] header.site-header {
+      background: rgba(19, 27, 46, 0.9);
+    }
+
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0.8rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logo-badge {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #B91C1C, #EF4444);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.4rem;
+      box-shadow: 0 4px 12px rgba(185, 28, 28, 0.35);
+    }
+
+    .logo-text h1 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: var(--dark);
+      letter-spacing: -0.01em;
+    }
+    .logo-text span {
+      font-size: 0.76rem;
+      color: var(--primary);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      list-style: none;
+    }
+    .nav-links a {
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--muted);
+      transition: var(--transition);
+      padding: 0.4rem 0.6rem;
+      border-radius: 8px;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      color: var(--primary);
+      background: var(--primary-light);
+    }
+    [data-theme="dark"] .nav-links a:hover {
+      background: rgba(185, 28, 28, 0.2);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.55rem 1.1rem;
+      border-radius: 10px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #B91C1C, #DC2626);
+      color: white;
+      box-shadow: 0 4px 14px rgba(185, 28, 28, 0.3);
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #991B1B, #B91C1C);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(185, 28, 28, 0.4);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--dark);
+      border: 1px solid var(--border);
+    }
+    .btn-outline:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      background: var(--primary-light);
+    }
+    [data-theme="dark"] .btn-outline:hover {
+      background: rgba(185, 28, 28, 0.2);
+    }
+
+    .btn-mode {
+      padding: 0.5rem 0.9rem;
+      background: var(--light-gray);
+      color: var(--dark);
+      border-radius: 10px;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .theme-toggle {
+      background: var(--light-gray);
+      border: 1px solid var(--border);
+      color: var(--dark);
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      transition: var(--transition);
+    }
+    .theme-toggle:hover {
+      transform: scale(1.05);
+      border-color: var(--amber);
+    }
+
+    /* Hero Section */
+    .hero-section {
+      position: relative;
+      background: linear-gradient(180deg, rgba(185, 28, 28, 0.05) 0%, rgba(248, 250, 252, 0) 100%),
+                  radial-gradient(circle at 10% 20%, rgba(217, 119, 6, 0.08) 0%, transparent 40%),
+                  radial-gradient(circle at 90% 80%, rgba(185, 28, 28, 0.07) 0%, transparent 45%);
+      padding: 3.5rem 1.5rem 2.5rem;
+      text-align: center;
+    }
+    [data-theme="dark"] .hero-section {
+      background: linear-gradient(180deg, rgba(185, 28, 28, 0.12) 0%, rgba(11, 15, 25, 0) 100%);
+    }
+
+    .hero-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 1rem;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      border-radius: 999px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 1.2rem;
+      border: 1px solid rgba(185, 28, 28, 0.18);
+    }
+    [data-theme="dark"] .hero-badge {
+      background: rgba(185, 28, 28, 0.2);
+      color: #FCA5A5;
+      border-color: rgba(248, 113, 113, 0.3);
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2.4rem, 5.5vw, 3.8rem);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--dark);
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+    .hero-title .highlight {
+      background: linear-gradient(120deg, #B91C1C 0%, #EA580C 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2vw, 1.22rem);
+      color: var(--muted);
+      max-width: 820px;
+      margin: 0 auto 2rem;
+      line-height: 1.6;
+    }
+
+    /* Hero Stats Bar */
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      max-width: 900px;
+      margin: 0 auto 2.5rem;
+    }
+    .stat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 1.1rem 1rem;
+      border-radius: 14px;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .stat-num {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: var(--primary);
+      line-height: 1.1;
+    }
+    .stat-label {
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-weight: 600;
+      margin-top: 0.25rem;
+    }
+
+    /* Search & Filter Bar */
+    .search-filter-wrapper {
+      max-width: 1400px;
+      margin: 0 auto 2rem;
+      padding: 0 1.5rem;
+    }
+
+    .search-box-container {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 1.2rem;
+      box-shadow: var(--card-shadow);
+    }
+
+    .search-input-group {
+      position: relative;
+      margin-bottom: 1.2rem;
+    }
+    .search-input-group input {
+      width: 100%;
+      padding: 0.95rem 1.2rem 0.95rem 3.2rem;
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      font-size: 1.05rem;
+      font-family: inherit;
+      background: var(--bg);
+      color: var(--dark);
+      outline: none;
+      transition: var(--transition);
+    }
+    .search-input-group input:focus {
+      border-color: var(--primary);
+      background: var(--card-bg);
+      box-shadow: 0 0 0 4px rgba(185, 28, 28, 0.12);
+    }
+    .search-icon {
+      position: absolute;
+      left: 1.1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 1.3rem;
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    .filter-groups {
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .filter-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .filter-label {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--muted);
+      min-width: 110px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .pill-btn {
+      padding: 0.4rem 0.9rem;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: var(--bg);
+      color: var(--dark);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+    .pill-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+      transform: translateY(-1px);
+    }
+    .pill-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(185, 28, 28, 0.25);
+    }
+
+    .results-count-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.8rem 0.2rem 0;
+      border-top: 1px dashed var(--border);
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .reset-btn {
+      background: none;
+      border: none;
+      color: var(--primary);
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 0.85rem;
+      text-decoration: underline;
+    }
+
+    /* Main Grid */
+    .catalog-section {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    .eateries-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 1.8rem;
+    }
+
+    .eatery-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--card-shadow);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    .eatery-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--card-hover-shadow);
+      border-color: rgba(185, 28, 28, 0.3);
+    }
+
+    .card-thumb-wrap {
+      position: relative;
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+      background: #000;
+    }
+    .card-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.45s ease;
+    }
+    .eatery-card:hover .card-thumb-wrap img {
+      transform: scale(1.06);
+    }
+
+    .card-top-badges {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      z-index: 2;
+    }
+    .badge-tag {
+      padding: 0.3rem 0.75rem;
+      border-radius: 8px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    }
+    .badge-tag.michelin {
+      background: #B91C1C;
+      color: white;
+    }
+    .badge-tag.hot {
+      background: #D97706;
+      color: white;
+    }
+    .badge-tag.heritage {
+      background: #0F172A;
+      color: #F8FAFC;
+    }
+    .badge-tag.student {
+      background: #059669;
+      color: white;
+    }
+    .badge-tag.night {
+      background: #4F46E5;
+      color: white;
+    }
+
+    .rating-pill {
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      color: #FCD34D;
+      padding: 0.3rem 0.65rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+
+    .card-price-overlay {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      background: rgba(15, 23, 42, 0.85);
+      backdrop-filter: blur(8px);
+      color: #34D399;
+      padding: 0.3rem 0.75rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 800;
+    }
+
+    .card-body {
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-num-title {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+    .card-num {
+      font-size: 1.1rem;
+      font-weight: 900;
+      color: var(--primary);
+    }
+    .card-title {
+      font-size: 1.22rem;
+      font-weight: 800;
+      color: var(--dark);
+      line-height: 1.3;
+    }
+
+    .card-cat-badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--amber);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.85rem;
+    }
+
+    .card-info-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.55rem;
+      font-size: 0.88rem;
+      margin-bottom: 1rem;
+    }
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      line-height: 1.45;
+    }
+    .info-icon {
+      flex-shrink: 0;
+      font-size: 0.95rem;
+    }
+    .info-text {
+      color: var(--slate);
+    }
+    .info-text strong {
+      color: var(--dark);
+      font-weight: 700;
+    }
+
+    .card-why-box {
+      background: var(--bg);
+      border-left: 3px solid var(--primary);
+      padding: 0.75rem 0.9rem;
+      border-radius: 0 10px 10px 0;
+      font-size: 0.84rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-top: auto;
+      margin-bottom: 1.1rem;
+    }
+    .card-why-box strong {
+      color: var(--primary-dark);
+      display: block;
+      margin-bottom: 0.2rem;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+      margin-bottom: 1.1rem;
+    }
+    .tag-chip {
+      background: var(--light-gray);
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+    }
+
+    .card-actions {
+      display: flex;
+      gap: 0.6rem;
+      margin-top: auto;
+    }
+    .btn-maps {
+      flex: 1;
+      background: linear-gradient(135deg, #059669, #10B981);
+      color: white;
+      padding: 0.6rem 0.8rem;
+      border-radius: 10px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-decoration: none;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      transition: var(--transition);
+    }
+    .btn-maps:hover {
+      background: linear-gradient(135deg, #047857, #059669);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+    }
+
+    /* Featured Spotlight Banners */
+    .spotlights-section {
+      max-width: 1400px;
+      margin: 0 auto 4rem;
+      padding: 0 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      gap: 2rem;
+    }
+    .spotlight-card {
+      background: linear-gradient(135deg, #1E1B4B 0%, #0F172A 100%);
+      color: white;
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 2.2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .spotlight-card.hotpot {
+      background: linear-gradient(135deg, #7F1D1D 0%, #450A0A 100%);
+    }
+    .spotlight-card.westlake {
+      background: linear-gradient(135deg, #1E3A8A 0%, #172554 100%);
+    }
+
+    .spotlight-badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(6px);
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.9rem;
+      width: fit-content;
+    }
+    .spotlight-title {
+      font-family: var(--font-serif);
+      font-size: 1.85rem;
+      font-weight: 800;
+      margin-bottom: 0.8rem;
+      line-height: 1.25;
+    }
+    .spotlight-desc {
+      font-size: 0.94rem;
+      color: #E2E8F0;
+      margin-bottom: 1.5rem;
+      line-height: 1.6;
+    }
+    .spotlight-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .spotlight-feat-item {
+      background: rgba(255,255,255,0.08);
+      padding: 0.75rem 0.9rem;
+      border-radius: 10px;
+      font-size: 0.84rem;
+    }
+    .spotlight-feat-item strong {
+      display: block;
+      color: #FDE047;
+      margin-bottom: 0.2rem;
+    }
+
+    /* Table Section */
+    .table-section {
+      max-width: 1400px;
+      margin: 0 auto 4rem;
+      padding: 0 1.5rem;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .section-header .sub-badge {
+      color: var(--primary);
+      font-size: 0.82rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .section-header h2 {
+      font-family: var(--font-serif);
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: var(--dark);
+    }
+    .section-header p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 650px;
+      margin: 0.4rem auto 0;
+    }
+
+    .table-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow-x: auto;
+      box-shadow: var(--card-shadow);
+    }
+    table.custom-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      min-width: 800px;
+    }
+    table.custom-table th {
+      background: var(--primary);
+      color: white;
+      padding: 1rem 1.2rem;
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    table.custom-table td {
+      padding: 1rem 1.2rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+      color: var(--slate);
+    }
+    table.custom-table tr:hover td {
+      background: var(--bg);
+    }
+    .rank-cell {
+      font-weight: 900;
+      font-size: 1.15rem;
+      color: var(--primary);
+      text-align: center;
+      width: 70px;
+    }
+    .rank-cell.top1 { color: #EAB308; }
+    .rank-cell.top2 { color: #94A3B8; }
+    .rank-cell.top3 { color: #B45309; }
+
+    /* Budget Section */
+    .budget-section {
+      max-width: 1400px;
+      margin: 0 auto 4rem;
+      padding: 0 1.5rem;
+    }
+    .budget-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.8rem;
+    }
+    .budget-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.8rem;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+    .budget-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 6px;
+    }
+    .budget-card.tier-1::before { background: var(--emerald); }
+    .budget-card.tier-2::before { background: var(--amber); }
+    .budget-card.tier-3::before { background: var(--primary); }
+
+    .budget-tier-title {
+      font-size: 1.25rem;
+      font-weight: 800;
+      margin-bottom: 0.3rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .budget-card.tier-1 .budget-tier-title { color: var(--emerald); }
+    .budget-card.tier-2 .budget-tier-title { color: var(--amber); }
+    .budget-card.tier-3 .budget-tier-title { color: var(--primary); }
+
+    .budget-for {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+    }
+
+    .budget-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-bottom: 1.5rem;
+    }
+    .budget-list li {
+      font-size: 0.88rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 0.5rem;
+      border-bottom: 1px dashed var(--border);
+      padding-bottom: 0.4rem;
+    }
+    .budget-list li span:last-child {
+      font-weight: 700;
+      color: var(--dark);
+      white-space: nowrap;
+    }
+
+    .budget-tip {
+      margin-top: auto;
+      background: var(--bg);
+      padding: 0.85rem 1rem;
+      border-radius: 10px;
+      font-size: 0.82rem;
+      color: var(--primary-dark);
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* Personas / Occasions */
+    .personas-section {
+      max-width: 1400px;
+      margin: 0 auto 4rem;
+      padding: 0 1.5rem;
+    }
+    .personas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .persona-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      box-shadow: var(--card-shadow);
+      transition: var(--transition);
+    }
+    .persona-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--primary);
+    }
+    .persona-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--dark);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.6rem;
+    }
+    .persona-req {
+      font-size: 0.86rem;
+      color: var(--muted);
+      margin-bottom: 0.8rem;
+    }
+    .persona-rec {
+      font-size: 0.9rem;
+      color: var(--dark);
+      line-height: 1.5;
+    }
+    .persona-rec strong {
+      color: var(--primary);
+    }
+
+    /* Slide Deck Modal / Mode */
+    #slideDeckModal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(11, 15, 25, 0.96);
+      backdrop-filter: blur(12px);
+      z-index: 9999;
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      color: white;
+      padding: 1.5rem;
+    }
+    #slideDeckModal.active {
+      display: flex;
+    }
+
+    .deck-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .deck-title-wrap h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #F8FAFC;
+    }
+    .deck-title-wrap p {
+      font-size: 0.82rem;
+      color: #94A3B8;
+    }
+
+    .deck-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .deck-viewer {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      max-width: 1300px;
+      margin: 0.8rem auto;
+      width: 100%;
+    }
+    .slide-stage {
+      max-width: 100%;
+      max-height: calc(100vh - 200px);
+      aspect-ratio: 16 / 9;
+      border-radius: 12px;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+      overflow: hidden;
+      background: #000;
+      position: relative;
+    }
+    .slide-stage img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    .nav-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 52px;
+      height: 52px;
+      background: rgba(30, 41, 59, 0.8);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 50%;
+      color: white;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: var(--transition);
+      z-index: 10;
+    }
+    .nav-arrow:hover {
+      background: var(--primary);
+      transform: translateY(-50%) scale(1.1);
+    }
+    .nav-arrow.prev { left: -26px; }
+    .nav-arrow.next { right: -26px; }
+
+    .deck-bottom-bar {
+      max-width: 1400px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.8rem;
+    }
+    .deck-progress {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #E2E8F0;
+    }
+    .deck-thumbs-strip {
+      display: flex;
+      gap: 0.6rem;
+      overflow-x: auto;
+      max-width: 100%;
+      padding: 0.4rem 0.2rem;
+    }
+    .thumb-btn {
+      flex-shrink: 0;
+      width: 80px;
+      height: 45px;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 2px solid transparent;
+      cursor: pointer;
+      opacity: 0.55;
+      transition: var(--transition);
+    }
+    .thumb-btn.active, .thumb-btn:hover {
+      border-color: var(--primary);
+      opacity: 1;
+      transform: scale(1.08);
+    }
+    .thumb-btn img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Verification Sources */
+    .sources-section {
+      background: var(--light-gray);
+      border-top: 1px solid var(--border);
+      padding: 4rem 1.5rem 3rem;
+    }
+    .sources-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .sources-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .source-item {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 1.1rem;
+      border-radius: 12px;
+      box-shadow: var(--card-shadow);
+    }
+    .source-item strong {
+      color: var(--primary);
+      display: block;
+      margin-bottom: 0.2rem;
+      font-size: 0.95rem;
+    }
+    .source-item p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .qr-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      text-align: center;
+    }
+    .qr-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.1rem 0.8rem;
+      box-shadow: var(--card-shadow);
+    }
+    .qr-card img {
+      width: 100%;
+      max-width: 110px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 0.6rem;
+    }
+    .qr-card h4 {
+      font-size: 0.88rem;
+      font-weight: 700;
+      color: var(--dark);
+    }
+
+    /* Footer */
+    footer.site-footer {
+      background: var(--dark);
+      color: #94A3B8;
+      padding: 3rem 1.5rem 2rem;
+      text-align: center;
+      font-size: 0.88rem;
+    }
+    .footer-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .footer-links a {
+      color: #E2E8F0;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer-links a:hover {
+      color: var(--primary);
+    }
+
+    /* Floating Quick Nav Button */
+    .float-deck-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: linear-gradient(135deg, #B91C1C, #DC2626);
+      color: white;
+      padding: 0.85rem 1.35rem;
+      border-radius: 999px;
+      box-shadow: 0 8px 24px rgba(185, 28, 28, 0.45);
+      border: none;
+      font-weight: 800;
+      font-size: 0.92rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      z-index: 990;
+      transition: var(--transition);
+    }
+    .float-deck-btn:hover {
+      transform: scale(1.05) translateY(-2px);
+      box-shadow: 0 12px 28px rgba(185, 28, 28, 0.55);
+    }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .spotlights-section { grid-template-columns: 1fr; }
+      .sources-inner { grid-template-columns: 1fr; }
+      .eateries-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Accent Line -->
+  <div class="top-accent-bar"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo-group">
+        <div class="logo-badge">🍜</div>
+        <div class="logo-text">
+          <h1>Ăn Ngon – Giá Mềm</h1>
+          <span>Ẩm Thực Hà Nội 2026</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#catalog" class="active">Cẩm Nang Quán (29)</a></li>
+        <li><a href="#spotlights">Chuyên Đề Lẩu & Hồ Tây</a></li>
+        <li><a href="#ranking">Top 10 Đáng Thử</a></li>
+        <li><a href="#budget">Ngân Sách</a></li>
+        <li><a href="#personas">Theo Nhu Cầu</a></li>
+      </ul>
+
+      <div class="header-actions">
+        <button class="btn btn-primary" onclick="openSlideDeck(1)">
+          🖥️ Xem Trình Chiếu (18 Slides)
+        </button>
+        <a href="Am_thuc_Ha_Noi_Ngon_Re.pptx" download class="btn btn-outline" title="Tải file PowerPoint gốc">
+          📥 Tải PPTX
+        </a>
+        <button class="theme-toggle" id="themeToggle" title="Chuyển chế độ Sáng / Tối">
+          🌙
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-container">
+      <div class="hero-badge">
+        ✨ Cẩm Nang Ẩm Thực Thực Tế • make by Hoàng Quang Huy
+      </div>
+      <h1 class="hero-title">
+        Ăn Ngon – Giá Mềm:<br>
+        <span class="highlight">Khám Phá Ẩm Thực Hà Nội</span>
+      </h1>
+      <p class="hero-subtitle">
+        Tuyển tập 29 quán ăn nức tiếng thủ đô từ các ngõ ngách Phố Cổ, vành đai lộng gió Hồ Tây đến các thiên đường Lẩu bình dân & Lẩu Ven Hồ Tây. Thông tin chính xác 100% về giá cả, tọa độ bản đồ, giờ mở cửa và món ăn đặc trưng.
+      </p>
+
+      <!-- Stats -->
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num">29</span>
+          <span class="stat-label">Quán Ăn Kiểm Chứng</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">06</span>
+          <span class="stat-label">Quận Trung Tâm Hà Nội</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">&lt;50K</span>
+          <span class="stat-label">Nhiều Món No Căng Bụng</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">18</span>
+          <span class="stat-label">Slides Thuyết Trình Đẹp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search & Filter Wrapper -->
+  <section class="search-filter-wrapper" id="catalog">
+    <div class="search-box-container">
+      <!-- Search Input -->
+      <div class="search-input-group">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Tìm kiếm theo tên quán, món ăn (phở, lẩu, bánh giò, bánh tôm, cua đồng, tomyum...), phố hoặc địa chỉ...">
+      </div>
+
+      <!-- Filters -->
+      <div class="filter-groups">
+        <!-- Category Filter -->
+        <div class="filter-row">
+          <span class="filter-label">Món Ăn:</span>
+          <button class="pill-btn active" data-filter="cat" data-value="all">Tất cả (29)</button>
+          <button class="pill-btn" data-filter="cat" data-value="lau">🍲 Lẩu Bình Dân & Hồ Tây (7)</button>
+          <button class="pill-btn" data-filter="cat" data-value="hotay">🌅 Đặc Sản Hồ Tây (3)</button>
+          <button class="pill-btn" data-filter="cat" data-value="pho">🍜 Phở (2)</button>
+          <button class="pill-btn" data-filter="cat" data-value="buncha">🥢 Bún Chả & Thang (2)</button>
+          <button class="pill-btn" data-filter="cat" data-value="bundau">🌿 Bún Đậu (2)</button>
+          <button class="pill-btn" data-filter="cat" data-value="banhmi">🥖 Bánh Mì & Sốt Vang (3)</button>
+          <button class="pill-btn" data-filter="cat" data-value="cuon">🌯 Cuốn & Bánh Cuốn (2)</button>
+          <button class="pill-btn" data-filter="cat" data-value="com">🍛 Cơm Sườn & Tấm (2)</button>
+          <button class="pill-btn" data-filter="cat" data-value="anvat">🍢 Ăn Vặt & Chè (4)</button>
+          <button class="pill-btn" data-filter="cat" data-value="andem">🌙 Ăn Đêm & Nướng (2)</button>
+        </div>
+
+        <!-- District Filter -->
+        <div class="filter-row">
+          <span class="filter-label">Khu Vực:</span>
+          <button class="pill-btn active" data-filter="district" data-value="all">Toàn Hà Nội</button>
+          <button class="pill-btn" data-filter="district" data-value="Hoàn Kiếm">Quận Hoàn Kiếm (12)</button>
+          <button class="pill-btn" data-filter="district" data-value="Tây Hồ">Quận Tây Hồ (6)</button>
+          <button class="pill-btn" data-filter="district" data-value="Ba Đình">Quận Ba Đình (4)</button>
+          <button class="pill-btn" data-filter="district" data-value="Hai Bà Trưng">Quận Hai Bà Trưng (4)</button>
+          <button class="pill-btn" data-filter="district" data-value="Đống Đa">Quận Đống Đa (1)</button>
+          <button class="pill-btn" data-filter="district" data-value="Cầu Giấy">Quận Cầu Giấy (2)</button>
+        </div>
+
+        <!-- Price Tier Filter -->
+        <div class="filter-row">
+          <span class="filter-label">Ngân Sách:</span>
+          <button class="pill-btn active" data-filter="price" data-value="all">Mọi mức giá</button>
+          <button class="pill-btn" data-filter="price" data-value="under50k">💰 Dưới 50.000đ (9 quán)</button>
+          <button class="pill-btn" data-filter="price" data-value="50k-100k">💰💰 50.000đ – 100.000đ (11 quán)</button>
+          <button class="pill-btn" data-filter="price" data-value="100k-200k">💰💰💰 100.000đ – 200.000đ (9 quán)</button>
+        </div>
+      </div>
+
+      <div class="results-count-bar">
+        <span>Hiển thị <strong id="matchCount" style="color:var(--primary)">29</strong> / 29 địa điểm ẩm thực</span>
+        <button class="reset-btn" id="resetFiltersBtn">Đặt lại bộ lọc</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Eateries Cards Grid -->
+  <section class="catalog-section">
+    <div class="eateries-grid" id="eateriesGrid">
+      <!-- Dynamic rendering via JS -->
+    </div>
+  </section>
+
+  <!-- Featured Spotlight Banners -->
+  <section class="spotlights-section" id="spotlights">
+    <!-- Spotlight 1: Hotpots -->
+    <div class="spotlight-card hotpot">
+      <div>
+        <span class="spotlight-badge">🍲 Chuyên Đề Nổi Bật</span>
+        <h2 class="spotlight-title">Thiên Đường Lẩu Bình Dân Hà Nội</h2>
+        <p class="spotlight-desc">
+          Tụ họp bạn bè, người thân bên nồi lẩu nghi ngút khói thơm lừng với chi phí cực kỳ hợp lý chỉ từ 90K - 150K/người.
+        </p>
+        <div class="spotlight-features">
+          <div class="spotlight-feat-item">
+            <strong>🦀 Lẩu Cua Đồng Song Hà (685 Lạc Long Quân - Tây Hồ)</strong>
+            100% cua đồng giã tay, gạch riêu đóng bánh dày đặc, thơm ngát giấm bỗng ~130K–170K/người.
+          </div>
+          <div class="spotlight-feat-item">
+            <strong>🍲 Bủn Chef - Lẩu Thái Mặt Hồ (85 Trích Sài - Tây Hồ)</strong>
+            View trực diện Hồ Tây lộng gió, tomyum chua cay đậm đà, combo sinh viên ~110K–140K/người.
+          </div>
+          <div class="spotlight-feat-item">
+            <strong>🐸 Lẩu ếch Phong Ớ (Phó Đức Chính)</strong>
+            Măng cay chua nồng, đĩa ếch xào lăn giòn rụm chỉ ~100K/người.
+          </div>
+          <div class="spotlight-feat-item">
+            <strong>🥩 Bò Nhúng Dấm 555 & Lẩu Ốc Bà Lương</strong>
+            Bắp bò nhúng dấm rau mì thả ga & lẩu ốc chuối đậu gia truyền >50 năm.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-outline" style="color:white; border-color:rgba(255,255,255,0.4);" onclick="filterByCat('lau')">
+        Xem Riêng 7 Quán Lẩu Này →
+      </button>
+    </div>
+
+    <!-- Spotlight 2: West Lake -->
+    <div class="spotlight-card westlake">
+      <div>
+        <span class="spotlight-badge">🌅 Đặc Sản Hồ Tây</span>
+        <h2 class="spotlight-title">Gió Mát Ven Hồ & Vị Ngon Nức Tiếng</h2>
+        <p class="spotlight-desc">
+          Thưởng thức bánh tôm giòn rụm ngắm hoàng hôn, lẩu ven hồ view triệu đô, bánh giò khủng long siêu no và bún đậu Cây Đa.
+        </p>
+        <div class="spotlight-features">
+          <div class="spotlight-feat-item">
+            <strong>🍤 Bánh Tôm Hồ Tây (Số 1 Thanh Niên)</strong>
+            View thẳng chùa Trấn Quốc & mặt hồ chiều tà, kem ốc quế mát lạnh.
+          </div>
+          <div class="spotlight-feat-item">
+            <strong>🍲 Lẩu Đức Trọc & Song Hà (Yên Phụ & Lạc Long Quân)</strong>
+            Tụ họp đông vui ven hồ, lẩu riêu cua sườn sụn và gà đồi măng cay ấm cúng.
+          </div>
+          <div class="spotlight-feat-item">
+            <strong>🥟 Bánh Giò Thụy Khuê (Số 5 Thụy Khuê)</strong>
+            Bánh to gấp rưỡi thường, đẫm thịt băm mộc nhĩ, giò chả chỉ 25K-40K.
+          </div>
+          <div class="spotlight-feat-item">
+            <strong>🌿 Bún Đậu Cây Đa (235B Thụy Khuê)</strong>
+            Dồi rán giòn tan, đậu lướt ván ngậy béo, mắm tôm sủi bọt dậy mùi.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-outline" style="color:white; border-color:rgba(255,255,255,0.4);" onclick="filterByCat('hotay')">
+        Xem Đặc Sản Ven Hồ Tây →
+      </button>
+    </div>
+  </section>
+
+  <!-- Top 10 Ranking Table Section -->
+  <section class="table-section" id="ranking">
+    <div class="section-header">
+      <span class="sub-badge">Bảng Tổng Hợp Đánh Giá</span>
+      <h2>Top 10 Quán Ăn Đáng Thử Nhất Hà Nội</h2>
+      <p>Được xếp hạng dựa trên chất lượng món, giá thành, uy tín lịch sử và hàng nghìn lượt đánh giá thực tế</p>
+    </div>
+
+    <div class="table-card">
+      <table class="custom-table">
+        <thead>
+          <tr>
+            <th style="text-align:center">Hạng</th>
+            <th>Quán Ăn</th>
+            <th>Món Nổi Bật</th>
+            <th style="text-align:center">Giá Tham Khảo</th>
+            <th>Đánh Giá Thực Tế</th>
+            <th>Mức Độ Đáng Thử</th>
+          </tr>
+        </thead>
+        <tbody id="rankingTableBody">
+          <!-- Populated by JS -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Budget Planner Section -->
+  <section class="budget-section" id="budget">
+    <div class="section-header">
+      <span class="sub-badge">Tối Ưu Chi Phí</span>
+      <h2>Cẩm Nang Ăn Uống Theo Ngân Sách</h2>
+      <p>Lựa chọn thực đơn linh hoạt phù hợp từng túi tiền, từ sinh viên đến liên hoan đồng nghiệp</p>
+    </div>
+
+    <div class="budget-grid">
+      <!-- Tier 1 -->
+      <div class="budget-card tier-1">
+        <h3 class="budget-tier-title">💰 Dưới 50.000 VNĐ / Người</h3>
+        <p class="budget-for">Phù hợp: Học sinh, sinh viên, ăn sáng nhanh, ăn xế chiều & ăn vặt đêm</p>
+        <ul class="budget-list">
+          <li><span>Bánh giò Thụy Khuê (Số 5 Thụy Khuê)</span><span>25K – 40K</span></li>
+          <li><span>Bánh mì Dân Tổ (Trần Nhật Duật)</span><span>20K – 25K</span></li>
+          <li><span>Bánh Mì 25 (25 Hàng Cá)</span><span>35K – 50K</span></li>
+          <li><span>Bánh gối Gốc Đa (52 Lý Quốc Sư)</span><span>15K – 35K</span></li>
+          <li><span>Bún đậu 104 C3 Nghĩa Tân (Cầu Giấy)</span><span>30K – 45K</span></li>
+          <li><span>Cháo sườn sụn Huyền Anh (Đồng Xuân)</span><span>35K – 45K</span></li>
+          <li><span>Chè Bốn Mùa (4 Hàng Cân)</span><span>20K – 35K</span></li>
+          <li><span>Nộm Long Vi Dung (Hồ Hoàn Kiếm)</span><span>35K – 50K</span></li>
+        </ul>
+        <div class="budget-tip">
+          💡 Mẹo: Với 30K–40K, một chiếc bánh giò Thụy Khuê đẫm thịt chả hoặc suất bún đậu Nghĩa Tân đủ nạp năng lượng no nê cả buổi!
+        </div>
+      </div>
+
+      <!-- Tier 2 -->
+      <div class="budget-card tier-2">
+        <h3 class="budget-tier-title">💰💰 50.000 – 100.000 VNĐ / Người</h3>
+        <p class="budget-for">Phù hợp: Bữa trưa văn phòng, đặc sản ven hồ, lẩu ốc gia truyền chia nhóm</p>
+        <ul class="budget-list">
+          <li><span>Bánh tôm Hồ Tây (Số 1 Thanh Niên)</span><span>50K – 90K</span></li>
+          <li><span>Bún đậu Cây Đa (235B Thụy Khuê)</span><span>35K – 55K</span></li>
+          <li><span>Phở Gia Truyền Bát Đàn (Michelin)</span><span>50K – 70K</span></li>
+          <li><span>Phở Gà Nguyệt (Michelin Bib Gourmand)</span><span>45K – 75K</span></li>
+          <li><span>Bún Chả Hương Liên (Lê Văn Hưu)</span><span>50K – 70K</span></li>
+          <li><span>Bún Thang Bà Đức (48 Cầu Gỗ)</span><span>40K – 60K</span></li>
+          <li><span>Bánh Cuốn Bà Hoành (Tô Hiến Thành)</span><span>35K – 60K</span></li>
+          <li><span>Cơm Sườn Đào Duy Từ / Cơm Ali</span><span>45K – 65K</span></li>
+          <li><span>Lẩu Ốc Bà Lương (chia nhóm 3-4 bạn)</span><span>90K – 130K</span></li>
+        </ul>
+        <div class="budget-tip">
+          💡 Mẹo: Buổi chiều dạo mát Hồ Tây, ăn đĩa bánh tôm nóng giòn rồi tráng miệng bằng cây kem ốc quế chỉ tốn khoảng 70K–80K/người.
+        </div>
+      </div>
+
+      <!-- Tier 3 -->
+      <div class="budget-card tier-3">
+        <h3 class="budget-tier-title">💰💰💰 100.000 – 200.000 VNĐ / Người</h3>
+        <p class="budget-for">Phù hợp: Đi nhóm 3-6 người, liên hoan lẩu nướng, tụ tập bạn bè cuối tuần</p>
+        <ul class="budget-list">
+          <li><span>Lẩu Ếch Phong Ớ (72 Phó Đức Chính)</span><span>100K – 130K/người</span></li>
+          <li><span>Lẩu Bò Nhúng Dấm 555 (rau mì thả ga)</span><span>120K – 150K/người</span></li>
+          <li><span>Lẩu Riêu Cua Bắp Bò Nguyệt (Nguyễn Du)</span><span>130K – 180K/người</span></li>
+          <li><span>Bò Nướng Xuân Xuân (47 Mã Mây)</span><span>120K – 160K/người</span></li>
+          <li><span>Combo Obama Bún Chả Hương Liên</span><span>~120K/người</span></li>
+        </ul>
+        <div class="budget-tip">
+          💡 Mẹo: Đi nhóm từ 3–5 bạn, gọi set lẩu ếch hoặc bò nhúng dấm chia ra chỉ tầm 100K–130K/người, vừa ấm cúng, vừa no căng và cực kỳ kinh tế!
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Personas & Occasions -->
+  <section class="personas-section" id="personas">
+    <div class="section-header">
+      <span class="sub-badge">Trải Nghiệm Đúng Gu</span>
+      <h2>Gợi Ý Quán Ăn Theo Tình Huống</h2>
+      <p>Lựa chọn quán ăn chuẩn xác cho từng mục đích gặp gỡ và khung giờ trong ngày</p>
+    </div>
+
+    <div class="personas-grid">
+      <div class="persona-card">
+        <h3 class="persona-title">🎓 Sinh Viên & Học Sinh</h3>
+        <p class="persona-req">Ưu tiên: Suất ăn no, giá rẻ, đồ ăn đậm đà, đi nhóm chia tiền tiết kiệm.</p>
+        <p class="persona-rec">
+          Gợi ý: <strong>Lẩu ếch Phong Ớ</strong> (chia 100k/người), <strong>Bánh giò Thụy Khuê</strong> (25k), <strong>Bún đậu Nghĩa Tân</strong>, <strong>Bánh mì Dân Tổ</strong>, <strong>Nem chua rán Tạm Thương</strong>.
+        </p>
+      </div>
+
+      <div class="persona-card">
+        <h3 class="persona-title">💼 Dân Văn Phòng</h3>
+        <p class="persona-req">Ưu tiên: Phục vụ nhanh, phòng máy lạnh sạch sẽ, dinh dưỡng chắc bụng.</p>
+        <p class="persona-rec">
+          Gợi ý: <strong>Cơm sườn Đào Duy Từ</strong>, <strong>Cơm tấm Ali</strong>, <strong>Bún chả Hương Liên</strong>, <strong>Bánh cuốn Bà Hoành</strong>, <strong>Bún đậu Cây Đa</strong>.
+        </p>
+      </div>
+
+      <div class="persona-card">
+        <h3 class="persona-title">❤️ Hẹn Hò & Dạo Mát</h3>
+        <p class="persona-req">Ưu tiên: View hồ lộng gió, ngắm hoàng hôn, không gian lãng mạn, đồ ăn nhẹ nhàng.</p>
+        <p class="persona-rec">
+          Gợi ý: <strong>Bánh tôm Hồ Tây</strong> (đường Thanh Niên ngắm hồ), <strong>Phở cuốn Hương Mai</strong> (bán đảo Ngũ Xã), <strong>Bánh Mì 25</strong>, <strong>Chè Bốn Mùa</strong>.
+        </p>
+      </div>
+
+      <div class="persona-card">
+        <h3 class="persona-title">👨‍👩‍👧‍👦 Gia Đình & Tụ Họp Bạn Bè</h3>
+        <p class="persona-req">Ưu tiên: Bàn lớn rộng rãi, nồi lẩu ấm cúng, rau tươi thoải mái, giá hợp túi tiền.</p>
+        <p class="persona-rec">
+          Gợi ý: <strong>Lẩu Bò Nhúng Dấm 555</strong> (rau mì thả ga), <strong>Lẩu riêu cua Nguyệt</strong>, <strong>Lẩu ốc Bà Lương</strong>, <strong>Bò nướng Xuân Xuân</strong>.
+        </p>
+      </div>
+
+      <div class="persona-card">
+        <h3 class="persona-title">🌙 Cú Đêm & Ăn Khuya</h3>
+        <p class="persona-req">Ưu tiên: Mở muộn sau 22:00, đồ ăn nóng sốt ấm bụng sau giờ tăng ca hay dạo phố.</p>
+        <p class="persona-rec">
+          Gợi ý: <strong>Phở gà Nguyệt</strong> (đến 01:00), <strong>Cháo sườn Huyền Anh</strong> (đến 02:00 sáng), <strong>Bánh mì Dân Tổ</strong> (19:00 - 05:00 sáng).
+        </p>
+      </div>
+
+      <div class="persona-card">
+        <h3 class="persona-title">📸 Khách Du Lịch</h3>
+        <p class="persona-req">Ưu tiên: Danh tiếng văn hóa, món ăn di sản, check-in cảnh đẹp thủ đô.</p>
+        <p class="persona-rec">
+          Gợi ý: <strong>Bánh tôm Hồ Tây</strong> (chùa Trấn Quốc), <strong>Phở Bát Đàn</strong> (xếp hàng bao cấp), <strong>Bún chả Obama Hương Liên</strong>, <strong>Bún thang Bà Đức</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sources & QR Codes Section -->
+  <section class="sources-section">
+    <div class="sources-inner">
+      <div>
+        <h3 style="font-size:1.5rem; font-weight:800; color:var(--dark); margin-bottom:1rem;">
+          📋 Danh Mục Nguồn Dữ Liệu Kiểm Chứng
+        </h3>
+        <div class="sources-list">
+          <div class="source-item">
+            <strong>Google Maps Platform & Local Guides 2026</strong>
+            <p>Kiểm tra tọa độ chính xác, trạng thái hoạt động thực tế và hàng chục nghìn lượt đánh giá khách quan của người dân bản địa tại 6 quận nội thành.</p>
+          </div>
+          <div class="source-item">
+            <strong>Michelin Guide Vietnam</strong>
+            <p>Xác thực danh hiệu Bib Gourmand cho Phở Gia Truyền Bát Đàn, Phở Gà Nguyệt và Michelin Selected cho Bún Chả Hương Liên.</p>
+          </div>
+          <div class="source-item">
+            <strong>TripAdvisor & Foody.vn & PasGo</strong>
+            <p>Bảng xếp hạng khách quốc tế (Bánh Mì 25 đạt 4.6/5 ⭐ Top 1 bánh mì; Bánh Tôm Hồ Tây), đối soát thực đơn & giá lẩu tại Lẩu Ếch Phong Ớ, Bò Nhúng Dấm 555, Lẩu Ốc Bà Lương.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="qr-cards-grid">
+        <div class="qr-card">
+          <img src="hanoi_food_assets/qr_maps.png" alt="QR Google Maps">
+          <h4>Google Maps</h4>
+          <p style="font-size:0.75rem; color:var(--muted)">Định vị 29 quán ăn</p>
+        </div>
+        <div class="qr-card">
+          <img src="hanoi_food_assets/qr_michelin.png" alt="QR Michelin">
+          <h4>Michelin Guide</h4>
+          <p style="font-size:0.75rem; color:var(--muted)">Danh bạ Bib Gourmand</p>
+        </div>
+        <div class="qr-card">
+          <img src="hanoi_food_assets/qr_foody.png" alt="QR Foody">
+          <h4>Foody & Review</h4>
+          <p style="font-size:0.75rem; color:var(--muted)">Tra cứu thực đơn & ảnh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="#catalog">Danh mục 29 quán</a>
+        <a href="#spotlights">Chuyên đề Lẩu & Hồ Tây</a>
+        <a href="#ranking">Top 10 xếp hạng</a>
+        <a href="#budget">Cẩm nang ngân sách</a>
+        <a href="#" onclick="openSlideDeck(1); return false;">Trình chiếu 18 Slide</a>
+        <a href="Am_thuc_Ha_Noi_Ngon_Re.pptx" download>Tải file PPTX</a>
+      </div>
+      <p style="margin-bottom:0.4rem">
+        <strong>Ăn Ngon – Giá Mềm: Khám Phá Ẩm Thực Hà Nội</strong> • Bộ cẩm nang ẩm thực thực tế kiểm chứng 2026.
+      </p>
+      <p style="font-size:1.1rem; font-weight:800; color:#EF4444; margin:0.5rem 0; letter-spacing:0.8px; text-transform:uppercase;">
+        make by Hoàng Quang Huy
+      </p>
+      <p style="font-size:0.78rem; color:#64748B">
+        Mọi thông tin về giá, giờ mở cửa và đánh giá được đối soát từ dữ liệu thực tế tại thủ đô Hà Nội.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Slide Deck Modal (Presentation Viewer) -->
+  <div id="slideDeckModal">
+    <div class="deck-top-bar">
+      <div class="deck-title-wrap">
+        <h3 id="deckSlideTitle">Bìa: Ăn Ngon – Giá Mềm: Khám Phá Ẩm Thực Hà Nội</h3>
+        <p>Phím mũi tên ◀ ▶ hoặc phím cách để chuyển slide • Nhấn ESC để đóng</p>
+      </div>
+      <div class="deck-controls">
+        <button class="btn btn-outline" style="color:white; border-color:rgba(255,255,255,0.3)" onclick="toggleFullscreen()">
+          ⛶ Toàn Màn Hình
+        </button>
+        <button class="btn btn-outline" style="color:white; border-color:rgba(255,255,255,0.3)" onclick="closeSlideDeck()">
+          ✕ Đóng
+        </button>
+      </div>
+    </div>
+
+    <div class="deck-viewer">
+      <button class="nav-arrow prev" onclick="prevSlide()" title="Slide trước (Phím mũi tên trái)">‹</button>
+      <div class="slide-stage" id="slideStage">
+        <img id="currentSlideImg" src="hanoi_food_assets/slides/slide_01.png" alt="Slide Preview">
+      </div>
+      <button class="nav-arrow next" onclick="nextSlide()" title="Slide kế tiếp (Phím mũi tên phải)">›</button>
+    </div>
+
+    <div class="deck-bottom-bar">
+      <div class="deck-progress">
+        Slide <span id="currentSlideNum">1</span> / <span id="totalSlideNum">17</span>
+      </div>
+      <div class="deck-thumbs-strip" id="thumbsStrip">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick Deck Button -->
+  <button class="float-deck-btn" onclick="openSlideDeck(1)">
+    🖥️ Trình Chiếu Slide (17)
+  </button>
+
+  <!-- Interactive Data & Scripts -->
+  <script>
+    const eateries = [{"id": 1, "name": "Phở Gia Truyền Bát Đàn", "category": "pho", "category_name": "Phở Truyền Thống", "district": "Hoàn Kiếm", "address": "49 Bát Đàn, P. Cửa Đông, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Phở Gia Truyền 49 Bát Đàn Hà Nội", "dish": "Phở bò tái nạm, tái lăn, chín gầu, quẩy giòn", "price": "50.000 – 70.000 VNĐ/bát", "price_tier": "50k-100k", "rating": "4.1", "reviews": "4.200+", "source": "Google Maps & Michelin Bib Gourmand", "hours": "06:00 – 10:00 & 18:00 – 20:30", "badge": "Michelin Bib Gourmand", "badge_type": "michelin", "image": "hanoi_food_assets/pho_hanoi_dishes.jpg", "why": "Nước dùng ninh xương bò tự nhiên thơm nức mùi gừng nướng, thảo quả. Thịt bò thái mỏng mềm ngọt tự nhiên. Nét văn hóa tự bê bát xếp hàng thời bao cấp.", "tags": ["Phở bò", "Michelin", "Phố cổ", "Gia truyền"]}, {"id": 2, "name": "Phở Gà Nguyệt", "category": "pho", "category_name": "Phở Truyền Thống", "district": "Hoàn Kiếm", "address": "5B Phủ Doãn, P. Hàng Trống, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Phở Gà Nguyệt 5B Phủ Doãn Hà Nội", "dish": "Phở gà trộn đùi, phở gà nước, tràng trứng non", "price": "45.000 – 75.000 VNĐ/bát", "price_tier": "50k-100k", "rating": "4.3", "reviews": "1.800+", "source": "Michelin Bib Gourmand (2023–2026)", "hours": "06:30 – 13:00 & 17:30 – 01:00 (Đêm)", "badge": "Michelin Bib Gourmand", "badge_type": "michelin", "image": "hanoi_food_assets/pho_hanoi_dishes.jpg", "why": "Thịt gà ta thả vườn da vàng óng giòn sần sật. Nước sốt trộn màu nâu óng chua ngọt đậm đà, rắc hành phi thơm nức và lạc rang bùi ngậy. Mở tới 1h đêm.", "tags": ["Phở gà trộn", "Michelin", "Ăn đêm", "Phố cổ"]}, {"id": 3, "name": "Bún Chả Hương Liên (Bún Chả Obama)", "category": "buncha", "category_name": "Bún Chả & Bún Thang", "district": "Hai Bà Trưng", "address": "24 Lê Văn Hưu, P. Phan Chu Trinh, Q. Hai Bà Trưng, Hà Nội", "maps_query": "Bún Chả Hương Liên 24 Lê Văn Hưu Hà Nội", "dish": "Bún chả đặc biệt, nem cua bể, nem hải sản", "price": "50.000 – 70.000 VNĐ/suất (Combo Obama ~120K)", "price_tier": "50k-100k", "rating": "4.0", "reviews": "6.000+", "source": "Michelin Selected & CNN Travel", "hours": "08:00 – 20:30 hàng ngày", "badge": "Michelin Selected", "badge_type": "michelin", "image": "hanoi_food_assets/buncha_bunthang.jpg", "why": "Từng đón tiếp Tổng thống Barack Obama và đầu bếp Anthony Bourdain năm 2016. Chả nướng than hoa thơm lừng xém cạnh mềm ngọt, nước mắm chấm ấm nóng hài hòa.", "tags": ["Bún chả Obama", "Michelin", "Khách du lịch", "Hai Bà Trưng"]}, {"id": 4, "name": "Bún Thang Bà Đức", "category": "buncha", "category_name": "Bún Chả & Bún Thang", "district": "Hoàn Kiếm", "address": "48 Cầu Gỗ, P. Hàng Bạc, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bún Thang Bà Đức 48 Cầu Gỗ Hà Nội", "dish": "Bún thang truyền thống, giò lụa, trứng tráng chỉ, gà xé", "price": "40.000 – 60.000 VNĐ/bát", "price_tier": "50k-100k", "rating": "4.1", "reviews": "1.200+", "source": "Google Maps & Local Guides", "hours": "07:00 – 22:00 hàng ngày", "badge": "Đệ Nhất Bún Thang Phố Cổ", "badge_type": "heritage", "image": "hanoi_food_assets/buncha_bunthang.jpg", "why": "Bông hoa ngũ sắc với 10 nguyên liệu thái chỉ tăm tắp. Nước dùng ninh từ xương gà, sá sùng và tôm khô trong vắt ngọt lịm. Chút tinh dầu cà cuống tạo hương vị độc bản.", "tags": ["Bún thang", "Ẩm thực cung đình", "Phố cổ", "Thanh tao"]}, {"id": 5, "name": "Bún Đậu Trung Hương (Ngõ Phất Lộc)", "category": "bundau", "category_name": "Bún Đậu Mắm Tôm", "district": "Hoàn Kiếm", "address": "49 Ngõ Phất Lộc, P. Hàng Buồm, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bún Đậu Trung Hương 49 Ngõ Phất Lộc Hà Nội", "dish": "Đậu Mơ lướt ván, chả cốm Mễ Trì, thịt chân giò luộc, dồi chiên", "price": "45.000 – 65.000 VNĐ/mẹt đầy đủ", "price_tier": "50k-100k", "rating": "4.2", "reviews": "1.500+", "source": "Foody & Google Maps", "hours": "07:30 – 21:00 hàng ngày", "badge": "Mẹt Bún Đậu Đệ Nhất Ngõ Cổ", "badge_type": "heritage", "image": "hanoi_food_assets/bundau_mamtom.jpg", "why": "Đậu làng Mơ rán lướt ván ngoài giòn trong mềm mịn như kem. Mắm tôm Thanh Hóa chuẩn vị đánh sủi bọt cùng quất, ớt tươi và dầu sôi béo ngậy thơm nức mũi.", "tags": ["Bún đậu", "Đậu Mơ", "Ngõ Phất Lộc", "Mắm tôm chuẩn"]}, {"id": 6, "name": "Bún Đậu Mắm Tôm 104 C3 Nghĩa Tân", "category": "bundau", "category_name": "Bún Đậu Mắm Tôm", "district": "Cầu Giấy", "address": "104 C3 Nghĩa Tân, P. Nghĩa Tân, Q. Cầu Giấy, Hà Nội", "maps_query": "Bún đậu 104 C3 Nghĩa Tân Cầu Giấy", "dish": "Mẹt bún đậu thập cẩm, nem rán giòn, chả cốm dẻo thơm", "price": "30.000 – 45.000 VNĐ/suất", "price_tier": "under50k", "rating": "4.1", "reviews": "1.100+", "source": "Google Maps & Sinh viên Cầu Giấy", "hours": "09:00 – 21:30 hàng ngày", "badge": "Ngon Bổ Rẻ Thủ Phủ Sinh Viên", "badge_type": "student", "image": "hanoi_food_assets/bundau_mamtom.jpg", "why": "Mẹt bún đầy ắp topping với mức giá sinh viên. Đậu rán nóng hổi liên tục, nem rán giòn tan, trà quất khổng lồ giải ngấy mát lạnh.", "tags": ["Bún đậu", "Giá rẻ <50k", "Sinh viên", "Cầu Giấy"]}, {"id": 7, "name": "Bánh Mì 25", "category": "banhmi", "category_name": "Bánh Mì & Sốt Vang", "district": "Hoàn Kiếm", "address": "25 Hàng Cá, P. Hàng Đào, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bánh Mì 25 25 Hàng Cá Hà Nội", "dish": "Bánh mì pate thịt nguội xá xíu, bánh mì bò áp chảo nấm", "price": "35.000 – 50.000 VNĐ/cái", "price_tier": "under50k", "rating": "4.6", "reviews": "7.500+", "source": "Top 1 TripAdvisor & Google Maps", "hours": "07:00 – 21:00 hàng ngày", "badge": "Top 1 TripAdvisor Bánh Mì", "badge_type": "hot", "image": "hanoi_food_assets/banhmi_sotvang.jpg", "why": "Vỏ giòn tan không vỡ vụn, pate gan ngậy béo tự làm thơm lừng, sốt mayonnaise tự đánh và rau mùi tươi rói. Phục vụ chuyên nghiệp, sạch sẽ.", "tags": ["Bánh mì", "TripAdvisor Top 1", "Pate béo", "Phố cổ"]}, {"id": 8, "name": "Bánh Mì Sốt Vang Trâm (Đình Ngang)", "category": "banhmi", "category_name": "Bánh Mì & Sốt Vang", "district": "Hoàn Kiếm", "address": "30 Đình Ngang, P. Cửa Nam, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bánh mì sốt vang Trâm 30 Đình Ngang Hà Nội", "dish": "Bánh mì sốt vang dẻ sườn bò, bánh mì chảo thập cẩm", "price": "40.000 – 60.000 VNĐ/suất", "price_tier": "50k-100k", "rating": "4.1", "reviews": "2.000+", "source": "Google Maps & Foody", "hours": "08:00 – 23:00 hàng ngày", "badge": "Sốt Vang Gia Truyền Số 1", "badge_type": "heritage", "image": "hanoi_food_assets/banhmi_sotvang.jpg", "why": "Dẻ sườn và gân bò ninh nhừ thấm đượm rượu vang chát, thảo quả ngũ vị hương. Nước sốt sánh đỏ óng ánh chấm bánh mì nướng giòn rụm trong tiết trời se lạnh.", "tags": ["Sốt vang", "Bò dẻ sườn", "Ăn tối", "Phố cổ"]}, {"id": 9, "name": "Bánh Mì Dân Tổ", "category": "banhmi", "category_name": "Bánh Mì & Sốt Vang", "district": "Hoàn Kiếm", "address": "Ngã 3 Trần Nhật Duật x Cao Thắng, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bánh Mì Dân Tổ Trần Nhật Duật Hà Nội", "dish": "Bánh mì nhân thập cẩm xào bơ (pate, trứng, xúc xích, lạp xưởng)", "price": "20.000 – 25.000 VNĐ/cái", "price_tier": "under50k", "rating": "4.0", "reviews": "1.300+", "source": "Google Maps & TikTok Viral", "hours": "19:00 – 05:00 sáng hôm sau", "badge": "Huyền Thoại Bánh Mì Đêm", "badge_type": "night", "image": "hanoi_food_assets/banhmi_sotvang.jpg", "why": "Nhân bánh được xào chung trong chảo bơ thực vật thơm nức mũi thành hỗn hợp dẻo sệt béo ngậy. Nét ẩm thực đường phố về đêm độc nhất vô nhị của giới trẻ thủ đô.", "tags": ["Bánh mì đêm", "Giá rẻ <25k", "Cú đêm", "Bơ béo ngậy"]}, {"id": 10, "name": "Bánh Cuốn Bà Hoành", "category": "cuon", "category_name": "Bánh Cuốn & Phở Cuốn", "district": "Hai Bà Trưng", "address": "66 Tô Hiến Thành, P. Bùi Thị Xuân, Q. Hai Bà Trưng, Hà Nội", "maps_query": "Bánh Cuốn Bà Hoành 66 Tô Hiến Thành Hà Nội", "dish": "Bánh cuốn mỏng tráng tay, chả quế, thịt nướng than hoa", "price": "35.000 – 60.000 VNĐ/suất", "price_tier": "50k-100k", "rating": "4.0", "reviews": "3.500+", "source": "Google Maps & Foody", "hours": "06:00 – 21:30 hàng ngày", "badge": "Bánh Cuốn Thanh Trì Cổ Truyền", "badge_type": "heritage", "image": "hanoi_food_assets/banhcuon_phocuon.jpg", "why": "Lá bánh mỏng tang như dải lụa mướt mát, thoa hành phi thơm phức. Ăn kèm thịt nướng than hoa thơm lừng và chả quế béo giòn trong bát nước mắm ấm nóng.", "tags": ["Bánh cuốn", "Thanh Trì", "Chả than hoa", "Hai Bà Trưng"]}, {"id": 11, "name": "Phở Cuốn Hương Mai (Ngũ Xã)", "category": "cuon", "category_name": "Bánh Cuốn & Phở Cuốn", "district": "Ba Đình", "address": "25 Ngũ Xã, P. Trúc Bạch, Q. Ba Đình, Hà Nội", "maps_query": "Phở Cuốn Hương Mai 25 Ngũ Xã Hà Nội", "dish": "Phở cuốn thịt bò xào lăn, phở chiên phồng sốt bò, phở chiên trứng", "price": "55.000 – 85.000 VNĐ/người", "price_tier": "50k-100k", "rating": "4.1", "reviews": "2.400+", "source": "Google Maps & Fanpage Hương Mai", "hours": "09:30 – 22:00 hàng ngày", "badge": "Làng Nghề Phở Cuốn Ngũ Xã", "badge_type": "heritage", "image": "hanoi_food_assets/banhcuon_phocuon.jpg", "why": "Bánh phở vuông vắn mềm dai cuộn trọn thịt bò bắp xào lăn đậm vị và xà lách tươi. Chấm đẫm nước mắm chua ngọt thanh mát giải nhiệt cực đã cạnh hồ Trúc Bạch.", "tags": ["Phở cuốn", "Ngũ Xã", "Phở chiên phồng", "Ba Đình"]}, {"id": 12, "name": "Cơm Sườn Nướng Đào Duy Từ", "category": "com", "category_name": "Cơm Sườn & Cơm Tấm", "district": "Hoàn Kiếm", "address": "47 Đào Duy Từ, P. Hàng Buồm, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Cơm Sườn Đào Duy Từ 47 Đào Duy Từ Hà Nội", "dish": "Cơm đảo sườn nướng sốt BBQ mật ong, cơm gà xối mỡ", "price": "50.000 – 65.000 VNĐ/đĩa", "price_tier": "50k-100k", "rating": "4.0", "reviews": "2.100+", "source": "Google Maps & Foody", "hours": "10:00 – 22:30 hàng ngày", "badge": "Cơm Sườn Đông Nhất Phố Cổ", "badge_type": "hot", "image": "hanoi_food_assets/com_suon_nuong.jpg", "why": "Cơm đảo vàng ươm tơi xốp ăn cùng dải sườn nướng than hoa tẩm ướp mật ong đậm đà mềm róc xương, ăn kèm canh thanh mát và dưa góp giải ngấy.", "tags": ["Cơm sườn", "Cơm đảo", "Ăn trưa nhanh", "Phố cổ"]}, {"id": 13, "name": "Cơm Tấm Ali (Kim Ngưu)", "category": "com", "category_name": "Cơm Sườn & Cơm Tấm", "district": "Hai Bà Trưng", "address": "304 Kim Ngưu, P. Minh Khai, Q. Hai Bà Trưng, Hà Nội", "maps_query": "Cơm Tấm Ali 304 Kim Ngưu Hà Nội", "dish": "Cơm tấm sườn bì chả, sườn non nướng mật ong, canh khổ qua", "price": "45.000 – 60.000 VNĐ/dĩa", "price_tier": "50k-100k", "rating": "4.2", "reviews": "1.600+", "source": "Google Maps & Review ẩm thực", "hours": "08:00 – 21:00 hàng ngày", "badge": "Cơm Tấm Chuẩn Vị Sài Gòn", "badge_type": "hot", "image": "hanoi_food_assets/com_suon_nuong.jpg", "why": "Hạt tấm thơm dẻo, miếng sườn cốt lết dày cộm nướng xém cạnh thơm phức, chả trứng béo ngậy và nước mắm kẹo ớt tỏi chuẩn vị miền Nam.", "tags": ["Cơm tấm", "Sườn cốt lết", "Chả bì", "Hai Bà Trưng"]}, {"id": 14, "name": "Nộm Bò Khô Long Vi Dung", "category": "anvat", "category_name": "Ăn Vặt & Tráng Miệng", "district": "Hoàn Kiếm", "address": "23 Hồ Hoàn Kiếm, P. Hàng Bạc, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Nộm bò khô Long Vi Dung 23 Hồ Hoàn Kiếm Hà Nội", "dish": "Nộm bò khô thập cẩm, gân bò giòn, chim cút quay", "price": "35.000 – 50.000 VNĐ/đĩa", "price_tier": "under50k", "rating": "4.2", "reviews": "2.700+", "source": "Google Maps & Foody", "hours": "08:30 – 22:00 hàng ngày", "badge": "Nộm Bò Khô Hồ Gươm", "badge_type": "heritage", "image": "hanoi_food_assets/do_an_vat_hanoi.jpg", "why": "Đu đủ xanh giòn tan, bò khô bản to dai ngọt cay nồng quyện nước giấm đường gia truyền chua ngọt hài hòa cùng lạc rang giòn bùi.", "tags": ["Nộm bò khô", "Bờ Hồ", "Ăn vặt", "Phố cổ"]}, {"id": 15, "name": "Nem Chua Rán 36 Tạm Thương", "category": "anvat", "category_name": "Ăn Vặt & Tráng Miệng", "district": "Hoàn Kiếm", "address": "36 Ngõ Tạm Thương, P. Hàng Gai, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Nem chua rán 36 Ngõ Tạm Thương Hà Nội", "dish": "Nem chua rán bọc bột, khoai tây lắc phô mai, xoài lắc", "price": "40.000 – 60.000 VNĐ/phần", "price_tier": "under50k", "rating": "4.1", "reviews": "1.800+", "source": "Google Maps & Foody", "hours": "09:30 – 23:00 hàng ngày", "badge": "Ngõ Nem Chua Rán Số 1", "badge_type": "student", "image": "hanoi_food_assets/do_an_vat_hanoi.jpg", "why": "Nem chua lăn bột rán giòn rụm lớp vỏ ngoài, bên trong dẻo dai nóng hổi chấm tương ớt cay nồng trong con ngõ nhỏ ấm cúng thân quen.", "tags": ["Nem chua rán", "Ngõ Tạm Thương", "Ăn vặt học sinh", "Phố cổ"]}, {"id": 16, "name": "Bánh Gối & Bánh Rán Gốc Đa", "category": "anvat", "category_name": "Ăn Vặt & Tráng Miệng", "district": "Hoàn Kiếm", "address": "52 Lý Quốc Sư, P. Hàng Trống, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bánh gối Gốc Đa 52 Lý Quốc Sư Hà Nội", "dish": "Bánh gối nhân thịt miến mộc nhĩ, bánh rán mặn, nem rán", "price": "15.000 – 35.000 VNĐ/món", "price_tier": "under50k", "rating": "4.0", "reviews": "2.200+", "source": "Google Maps & Du lịch Hà Nội", "hours": "08:00 – 21:30 hàng ngày", "badge": "Quán Bánh Gối Cạnh Nhà Thờ Lớn", "badge_type": "heritage", "image": "hanoi_food_assets/do_an_vat_hanoi.jpg", "why": "Vỏ bánh gối vàng ươm giòn rụm, nhân thịt băm miến mộc nhĩ trứng cút đậm đà chấm nước mắm chua ngọt dưa góp giải ngấy cực kỳ bắt miệng.", "tags": ["Bánh gối", "Nhà Thờ Lớn", "Giá rẻ <35k", "Quà chiều"]}, {"id": 17, "name": "Chè Bốn Mùa Hàng Cân", "category": "anvat", "category_name": "Ăn Vặt & Tráng Miệng", "district": "Hoàn Kiếm", "address": "4 Hàng Cân, P. Hàng Bồ, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Chè Bốn Mùa 4 Hàng Cân Hà Nội", "dish": "Chè sen thạch trân châu, chè đậu đen, chè khúc bạch", "price": "20.000 – 35.000 VNĐ/cốc", "price_tier": "under50k", "rating": "4.1", "reviews": "2.500+", "source": "Google Maps & Di sản ẩm thực 1975", "hours": "09:00 – 23:00 hàng ngày", "badge": "Quán Chè Cổ Truyền Từ 1975", "badge_type": "heritage", "image": "hanoi_food_assets/do_an_vat_hanoi.jpg", "why": "Vị ngọt thanh tự nhiên từ đường phèn, hạt sen bở mềm thơm ngát kết hợp thạch đen dai giòn và trân châu dừa béo ngậy chuẩn vị phố cổ hơn 50 năm.", "tags": ["Chè truyền thống", "Chè sen", "Giải khát", "Phố cổ"]}, {"id": 18, "name": "Cháo Sườn Sụn Huyền Anh", "category": "andem", "category_name": "Ăn Đêm & Đồ Nướng", "district": "Hoàn Kiếm", "address": "14 Đồng Xuân, P. Đồng Xuân, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Cháo sườn sụn Huyền Anh 14 Đồng Xuân Hà Nội", "dish": "Cháo sườn sụn ninh nhuyễn mịn, quẩy giòn, ruốc heo", "price": "35.000 – 45.000 VNĐ/bát", "price_tier": "under50k", "rating": "4.0", "reviews": "2.800+", "source": "Google Maps & Ăn đêm chợ Đồng Xuân", "hours": "18:00 – 02:00 sáng hôm sau", "badge": "Biểu Tượng Ăn Đêm Đồng Xuân", "badge_type": "night", "image": "hanoi_food_assets/lau_nuong_chao_dem.jpg", "why": "Cháo ninh sánh mịn như kem từ nước xương tủy ngọt lịm. Sườn sụn giòn sần sật, quẩy giòn rụm và ruốc thịt đậm đà rắc tiêu ấm bụng đêm lạnh.", "tags": ["Cháo sườn sụn", "Chợ Đồng Xuân", "Ăn đêm 2h sáng", "Ấm bụng"]}, {"id": 19, "name": "Bò Nướng Xuân Xuân", "category": "andem", "category_name": "Ăn Đêm & Đồ Nướng", "district": "Hoàn Kiếm", "address": "47 Mã Mây, P. Hàng Buồm, Q. Hoàn Kiếm, Hà Nội", "maps_query": "Bò Nướng Xuân Xuân 47 Mã Mây Hà Nội", "dish": "Set bò nướng, nầm nướng bơ tỏi chảo gang, bánh mì bơ", "price": "120.000 – 160.000 VNĐ/người (Set 300K/2-3 người)", "price_tier": "100k-200k", "rating": "4.1", "reviews": "2.600+", "source": "Google Maps & TripAdvisor", "hours": "15:00 – 23:30 hàng ngày", "badge": "Bò Nướng Bơ Mã Mây Nổi Tiếng", "badge_type": "hot", "image": "hanoi_food_assets/lau_nuong_chao_dem.jpg", "why": "Mùi bơ tỏi thơm nức mũi cả góc phố cổ. Thịt bò tươi mềm, nầm giòn nướng trên chảo gang giấy bạc chấm sốt me hoặc muối tiêu chanh ớt cực cuốn.", "tags": ["Bò nướng chảo gang", "Phố Mã Mây", "Tụ tập bạn bè", "Đồ nướng"]}, {"id": 20, "name": "Lẩu Riêu Cua Bắp Bò Nguyệt", "category": "lau", "category_name": "Chuyên Đề Lẩu Bình Dân", "district": "Hai Bà Trưng", "address": "106 Nguyễn Du, P. Nguyễn Du, Q. Hai Bà Trưng, Hà Nội", "maps_query": "Lẩu Riêu Cua Bắp Bò Nguyệt 106 Nguyễn Du Hà Nội", "dish": "Lẩu riêu cua đồng, bắp bò hoa, sườn sụn non, giò tai, trứng vịt lộn", "price": "130.000 – 180.000 VNĐ/người (Set 350K – 500K)", "price_tier": "100k-200k", "rating": "4.2", "reviews": "2.100+", "source": "Foody & Google Maps", "hours": "17:00 – 23:30 hàng ngày", "badge": "Lẩu Riêu Cua Đồng Giấm Bỗng Đệ Nhất", "badge_type": "hot", "image": "hanoi_food_assets/lau_nuong_chao_dem.jpg", "why": "Nồi lẩu ngập tràn mảng riêu cua đồng vàng óng, vị chua thanh từ giấm bỗng nếp truyền thống. Bắp bò hoa giòn ngọt tươi rói, sườn sụn non sần sật, rau xanh dồi dào.", "tags": ["Lẩu riêu cua", "Bắp bò hoa", "Giấm bỗng", "Hai Bà Trưng"]}, {"id": 21, "name": "Lẩu Ếch Măng Cay Phong Ớ", "category": "lau", "category_name": "Chuyên Đề Lẩu Bình Dân", "district": "Ba Đình", "address": "72 – 74 Phó Đức Chính, P. Trúc Bạch, Q. Ba Đình, Hà Nội", "maps_query": "Lẩu Ếch Phong Ớ 72 Phó Đức Chính Hà Nội", "dish": "Nồi lẩu ếch măng cay chua thanh, đĩa ếch xào lăn vàng ươm, da ếch chiên giòn", "price": "250.000 – 400.000 VNĐ/nồi (Chia ra ~100K–130K/người)", "price_tier": "100k-200k", "rating": "4.1", "reviews": "2.200+", "source": "Google Maps & PasGo", "hours": "10:00 – 14:00 & 16:30 – 23:00 hàng ngày", "badge": "Huyền Thoại Lẩu Ếch Phó Đức Chính", "badge_type": "hot", "image": "hanoi_food_assets/lau_ngon_re_hanoi.jpg", "why": "Quán lẩu ếch đông khách nức tiếng nhất Hà Nội. Nước dùng măng cay chua cay đậm đà ấm sực người; thịt ếch xào săn chắc ngọt ngào ngấm đượm tỏi ớt, da ếch chiên giòn rụm nhúng lẩu cực bắt vị.", "tags": ["Lẩu ếch măng cay", "Phó Đức Chính", "Ngon rẻ sinh viên", "Ba Đình"]}, {"id": 22, "name": "Hệ Thống Lẩu Bò Nhúng Dấm 555", "category": "lau", "category_name": "Chuyên Đề Lẩu Bình Dân", "district": "Ba Đình", "address": "106 ngõ 12 Núi Trúc (Ba Đình) | 275 Tô Hiệu (Cầu Giấy) | 2B Lê Đại Hành (HBT)", "maps_query": "Bò Nhúng Dấm 555 Núi Trúc Hà Nội", "dish": "Lẩu bò nhúng dấm dừa chua thanh, bắp bò hoa tươi, cuốn bánh tráng mắm nêm", "price": "120.000 – 150.000 VNĐ/người (Combo 2-4 người từ 290.000 – 450.000 VNĐ)", "price_tier": "100k-200k", "rating": "4.2", "reviews": "2.500+", "source": "555anlangam.vn & Google Maps", "hours": "10:00 – 14:00 & 17:00 – 22:30 hàng ngày", "badge": "Chuỗi Bò Nhúng Dấm Số 1 (Rau Mì Thả Ga)", "badge_type": "hot", "image": "hanoi_food_assets/lau_ngon_re_hanoi.jpg", "why": "Nước lẩu ninh xương pha dấm gạo thơm dịu và nước dừa thanh ngọt mát lành. Thịt bắp bò tươi nhúng chín tới cuốn bánh tráng, chuối xanh, dứa chấm mắm nêm đậm đà; rau tươi & mì được tiếp thêm thoải mái miễn phí.", "tags": ["Lẩu bò nhúng dấm", "Rau mì thả ga", "Bình dân sạch sẽ", "Nhiều cơ sở"]}, {"id": 23, "name": "Lẩu Ốc Gia Truyền Bà Lương", "category": "lau", "category_name": "Chuyên Đề Lẩu Bình Dân", "district": "Đống Đa", "address": "Số 195 Khương Thượng, P. Khương Thượng, Q. Đống Đa, Hà Nội", "maps_query": "Lẩu ốc Bà Lương 195 Khương Thượng Đống Đa", "dish": "Lẩu ốc chuối đậu bỗng rượu gia truyền, ốc nhồi béo giòn, chả ốc lá lốt", "price": "300.000 – 450.000 VNĐ/nồi (Chia ra ~90K–130K/người)", "price_tier": "50k-100k", "rating": "4.3", "reviews": "1.200+", "source": "Google Maps & Ẩm thực gia truyền >50 năm", "hours": "07:30 – 21:30 hàng ngày", "badge": "Lẩu Ốc Gia Truyền Hơn 50 Năm", "badge_type": "heritage", "image": "hanoi_food_assets/lau_ngon_re_hanoi.jpg", "why": "Quán gia truyền từ thập niên 1970 với nước dùng giấm bỗng chua dịu ngọt xương thơm ngát tía tô. Ốc nhồi làm sạch béo múp giòn sần sật kết hợp chuối xanh bùi bùi và đậu rán vàng rộm độc nhất vô nhị.", "tags": ["Lẩu ốc", "Giấm bỗng nếp", "Gia truyền 1970", "Đống Đa"]}, {"id": 24, "name": "Bánh Tôm Hồ Tây & Ven Hồ", "category": "hotay", "category_name": "Ẩm Thực Ven Hồ Tây", "district": "Tây Hồ", "address": "Số 1 Thanh Niên, P. Yên Phụ, Q. Tây Hồ, Hà Nội", "maps_query": "Bánh tôm Hồ Tây số 1 Thanh Niên Hà Nội", "dish": "Bánh tôm chiên giòn nguyên con ngọt thịt, khoai lang bào, kem ốc quế", "price": "50.000 – 90.000 VNĐ/người (Đĩa bánh tôm ~80K–100K)", "price_tier": "50k-100k", "rating": "4.0", "reviews": "3.000+", "source": "Google Maps & Di sản biểu tượng", "hours": "09:00 – 21:30 hàng ngày", "badge": "Biểu Tượng Ẩm Thực Ven Hồ Tây", "badge_type": "heritage", "image": "hanoi_food_assets/am_thuc_ho_tay.jpg", "why": "Vỏ bánh bột khoai giòn rụm bọc tôm tươi ngọt nước, chấm nước mắm chua ngọt dưa góp đu đủ. Ngồi thưởng thức bánh nóng hổi ngắm cảnh Hồ Tây lộng gió và chùa Trấn Quốc là trải nghiệm kinh điển.", "tags": ["Bánh tôm Hồ Tây", "Đường Thanh Niên", "Hoàng hôn hồ Tây", "Du lịch"]}, {"id": 25, "name": "Bánh Giò 'Khủng Long' Thụy Khuê", "category": "hotay", "category_name": "Ẩm Thực Ven Hồ Tây", "district": "Tây Hồ", "address": "Số 5 Thụy Khuê, P. Thụy Khuê, Q. Tây Hồ, Hà Nội", "maps_query": "Bánh giò Cô Béo số 5 Thụy Khuê Tây Hồ Hà Nội", "dish": "Bánh giò nóng hổi kích thước khủng, chả cốm, giò lụa, giò bò, dưa góp", "price": "25.000 – 40.000 VNĐ/suất đầy đủ topping", "price_tier": "under50k", "rating": "4.1", "reviews": "2.500+", "source": "Google Maps & Foody", "hours": "06:00 – 20:30 hàng ngày", "badge": "Bánh Giò To Khủng Long Nức Tiếng", "badge_type": "student", "image": "hanoi_food_assets/am_thuc_ho_tay.jpg", "why": "Chiếc bánh giò to gấp rưỡi bình thường, vỏ bột gạo mềm mướt không nát, nhân thịt băm mộc nhĩ nấm hương ngập tràn ướp tiêu thơm nức; ăn kèm giò chả sần sật và tương ớt cay nồng cực đã.", "tags": ["Bánh giò khủng long", "Thụy Khuê", "Giá rẻ <40k", "Tây Hồ"]}, {"id": 26, "name": "Bún Đậu Cây Đa Thụy Khuê", "category": "hotay", "category_name": "Ẩm Thực Ven Hồ Tây", "district": "Tây Hồ", "address": "235B Thụy Khuê, P. Thụy Khuê, Q. Tây Hồ, Hà Nội", "maps_query": "Bún đậu Cây Đa 235B Thụy Khuê Tây Hồ Hà Nội", "dish": "Mẹt bún đậu thập cẩm, dồi rán giòn, thịt chân giò luộc, chả cốm dẻo", "price": "35.000 – 55.000 VNĐ/suất", "price_tier": "50k-100k", "rating": "4.2", "reviews": "1.800+", "source": "Google Maps & Reviewers", "hours": "09:00 – 21:30 hàng ngày", "badge": "Bún Đậu Lâu Năm Đông Nhất Tây Hồ", "badge_type": "hot", "image": "hanoi_food_assets/am_thuc_ho_tay.jpg", "why": "Mẹt bún đậu đầy ắp, đậu phụ rán lướt ván giòn vỏ ngoài mềm béo ngậy bên trong. Bát mắm tôm đánh bông sủi bọt dậy mùi thơm quyến rũ, không gian quán sạch sẽ, thoáng mát gần hồ.", "tags": ["Bún đậu Cây Đa", "Thụy Khuê", "Dồi rán giòn", "Tây Hồ"]}, {"id": 27, "name": "Lẩu Cua Đồng Song Hà", "category": "lau", "category_name": "Lẩu Ven Hồ Tây", "district": "Tây Hồ", "address": "685 Lạc Long Quân, P. Phú Thượng, Q. Tây Hồ, Hà Nội", "maps_query": "Lẩu Cua Đồng 685 Lạc Long Quân Tây Hồ Hà Nội", "dish": "Lẩu cua đồng riêu ngọt thanh, bắp bò tươi, sườn sụn non, giò tai, đậu rán", "price": "130.000 – 170.000 VNĐ/người (Set 380K – 480K cho nhóm 3-4 bạn)", "price_tier": "100k-200k", "rating": "4.2", "reviews": "1.500+", "source": "Google Maps & PasGo Tây Hồ", "hours": "09:00 – 22:30 hàng ngày", "badge": "Lẩu Cua Đồng Nguyên Bản Tây Hồ", "badge_type": "hot", "image": "hanoi_food_assets/lau_ho_tay_view.jpg", "why": "Quán lẩu cua đồng trứ danh Tây Hồ với nước dùng nấu từ 100% cua đồng giã tay, ngọt dịu tự nhiên không gắt mì chính. Không gian rộng rãi, thoáng mát mang phong cách Bắc Bộ, rất hợp họp mặt gia đình và bạn bè.", "tags": ["Lẩu cua đồng", "Lạc Long Quân", "Tây Hồ", "Gia đình tụ họp"]}, {"id": 28, "name": "Bủn Chef - Lẩu Thái Ven Hồ Tây", "category": "lau", "category_name": "Lẩu Ven Hồ Tây", "district": "Tây Hồ", "address": "85 Trích Sài, P. Bưởi, Q. Tây Hồ, Hà Nội", "maps_query": "Bủn Chef 85 Trích Sài Tây Hồ Hà Nội", "dish": "Lẩu Thái Tomyum chua cay đậm đà, lẩu Tứ Xuyên cay tê, bò Mỹ, mực trứng", "price": "110.000 – 140.000 VNĐ/người (Set 299K – 450K cho 3-4 người)", "price_tier": "100k-200k", "rating": "4.1", "reviews": "1.200+", "source": "Google Maps & Giới trẻ Ven Hồ", "hours": "10:30 – 14:00 & 17:30 – 23:00 hàng ngày", "badge": "View Trực Diện Mặt Hồ Trích Sài (Giá Rẻ)", "badge_type": "student", "image": "hanoi_food_assets/lau_ho_tay_view.jpg", "why": "Nằm ngay mặt đường Trích Sài lộng gió với tầm nhìn ôm trọn mặt nước Hồ Tây. Nước lẩu Tomyum chua cay chuẩn vị, cốt dừa thơm béo; mức giá bình dân cực kỳ hiếm có cho quán lẩu view ven hồ.", "tags": ["Lẩu Thái Tomyum", "85 Trích Sài", "View hồ Tây", "Giá rẻ sinh viên"]}, {"id": 29, "name": "Lẩu Đức Trọc (Cơ Sở Yên Phụ)", "category": "lau", "category_name": "Lẩu Ven Hồ Tây", "district": "Tây Hồ", "address": "15 Yên Phụ (đường nhỏ), P. Yên Phụ, Q. Tây Hồ, Hà Nội", "maps_query": "Lẩu Đức Trọc 15 Yên Phụ Tây Hồ Hà Nội", "dish": "Lẩu riêu cua sườn sụn bắp bò, lẩu ếch măng cay, lẩu Thái chua cay", "price": "130.000 – 160.000 VNĐ/người (Set 350K – 550K)", "price_tier": "100k-200k", "rating": "4.1", "reviews": "2.000+", "source": "Google Maps & PasGo", "hours": "10:00 – 14:00 & 17:00 – 23:00 hàng ngày", "badge": "Chuỗi Lẩu Đông Khách Gần Hồ", "badge_type": "hot", "image": "hanoi_food_assets/lau_ho_tay_view.jpg", "why": "Điểm hẹn tụ tập quen thuộc của giới trẻ và dân văn phòng khu vực Yên Phụ - Tây Hồ. Menu phong phú, nước dùng đậm đà, đồ nhúng tươi đầy đặn và chỗ để xe rộng rãi.", "tags": ["Lẩu riêu cua", "Lẩu ếch", "Yên Phụ", "Tây Hồ"]}];
+    const top10 = [{"rank": "01", "name": "Phở Gia Truyền Bát Đàn", "dish": "Phở bò tái nạm, quẩy giòn", "price": "50K – 70K", "rating": "4.1/5 ⭐ (4.2K+ review)", "tier": "⭐⭐⭐⭐⭐ Bắt buộc thử"}, {"rank": "02", "name": "Phở Gà Nguyệt", "dish": "Phở gà trộn đùi, tràng trứng", "price": "45K – 75K", "rating": "4.3/5 ⭐ (Michelin 4 năm)", "tier": "⭐⭐⭐⭐⭐ Bắt buộc thử"}, {"rank": "03", "name": "Bún Chả Hương Liên", "dish": "Bún chả đặc biệt, nem cua bể", "price": "50K – 70K", "rating": "4.0/5 ⭐ (6.0K+ review)", "tier": "⭐⭐⭐⭐⭐ Bắt buộc thử"}, {"rank": "04", "name": "Bánh Mì 25", "dish": "Bánh mì pate xá xíu, bò nấm", "price": "35K – 50K", "rating": "4.6/5 ⭐ (7.5K+ review)", "tier": "⭐⭐⭐⭐⭐ Bắt buộc thử"}, {"rank": "05", "name": "Bún Đậu Trung Hương", "dish": "Mẹt bún đậu đầy đủ, chả cốm", "price": "45K – 65K", "rating": "4.2/5 ⭐ (1.5K+ review)", "tier": "⭐⭐⭐⭐⭐ Bắt buộc thử"}, {"rank": "06", "name": "Lẩu Ếch Phong Ớ", "dish": "Lẩu ếch măng cay, da chiên", "price": "100K – 130K", "rating": "4.1/5 ⭐ (2.2K+ review)", "tier": "⭐⭐⭐⭐⭐ Bắt buộc thử"}, {"rank": "07", "name": "Lẩu Cua Đồng Song Hà", "dish": "Lẩu cua đồng Bắc Bộ, bắp bò", "price": "130K – 170K", "rating": "4.2/5 ⭐ (1.5K+ review)", "tier": "⭐⭐⭐⭐ Rất đáng thử"}, {"rank": "08", "name": "Bánh Tôm Hồ Tây", "dish": "Bánh tôm giòn rụm view hồ", "price": "50K – 90K", "rating": "4.0/5 ⭐ (3.0K+ review)", "tier": "⭐⭐⭐⭐ Rất đáng thử"}, {"rank": "09", "name": "Bánh Giò Thụy Khuê", "dish": "Bánh giò khủng long đẫm thịt", "price": "25K – 40K", "rating": "4.1/5 ⭐ (2.5K+ review)", "tier": "⭐⭐⭐⭐ Rất đáng thử"}, {"rank": "10", "name": "Lẩu Bò Nhúng Dấm 555", "dish": "Bắp bò hoa, dấm dừa, rau thả ga", "price": "120K – 150K", "rating": "4.2/5 ⭐ (2.5K+ review)", "tier": "⭐⭐⭐⭐ Rất đáng thử"}];
+    const slides = [{"num": 1, "title": "Bìa: Ăn Ngon – Giá Mềm: Khám Phá Ẩm Thực Hà Nội", "file": "hanoi_food_assets/slides/slide_01.png"}, {"num": 2, "title": "Tiêu Chí Tuyển Chọn Địa Điểm Ẩm Thực", "file": "hanoi_food_assets/slides/slide_02.png"}, {"num": 3, "title": "Bản Đồ Phân Bổ Ẩm Thực Hà Nội Theo Quận", "file": "hanoi_food_assets/slides/slide_03.png"}, {"num": 4, "title": "Phở Hà Nội: Tinh Hoa Bò & Gà Phố Cổ", "file": "hanoi_food_assets/slides/slide_04.png"}, {"num": 5, "title": "Bún Chả & Bún Thang: Vị Than Hoa & Nét Thanh Tao", "file": "hanoi_food_assets/slides/slide_05.png"}, {"num": 6, "title": "Bún Đậu Mắm Tôm: Đậu Mơ Giòn Béo & Mắm Sủi Bọt", "file": "hanoi_food_assets/slides/slide_06.png"}, {"num": 7, "title": "Bánh Mì & Sốt Vang: Giòn Rụm & Đậm Đà", "file": "hanoi_food_assets/slides/slide_07.png"}, {"num": 8, "title": "Bánh Cuốn & Phở Cuốn: Mềm Mướt Tinh Tế", "file": "hanoi_food_assets/slides/slide_08.png"}, {"num": 9, "title": "Cơm Sườn & Cơm Tấm: Chắc Bụng & Đậm Đà", "file": "hanoi_food_assets/slides/slide_09.png"}, {"num": 10, "title": "Ăn Vặt & Tráng Miệng: Thiên Đường Quà Chiều Phố Cổ", "file": "hanoi_food_assets/slides/slide_10.png"}, {"num": 11, "title": "Ăn Đêm & Lẩu Nướng Tụ Họp: Nhịp Sống Về Đêm", "file": "hanoi_food_assets/slides/slide_11.png"}, {"num": 12, "title": "Chuyên Đề Lẩu Bình Dân: Ngon Đậm Đà & Vừa Túi Tiền", "file": "hanoi_food_assets/slides/slide_12.png"}, {"num": 13, "title": "Ẩm Thực Ven Hồ Tây: Bánh Tôm, Bánh Giò & Bún Đậu", "file": "hanoi_food_assets/slides/slide_13.png"}, {"num": 14, "title": "Lẩu Ven Hồ Tây: Gió Mát Mặt Hồ & Hương Vị Đậm Đà", "file": "hanoi_food_assets/slides/slide_14.png"}, {"num": 15, "title": "Bảng Xếp Hạng: Top 10 Quán Ăn Đáng Thử Nhất", "file": "hanoi_food_assets/slides/slide_15.png"}, {"num": 16, "title": "Cẩm Nang Ăn Uống Theo Ngân Sách", "file": "hanoi_food_assets/slides/slide_16.png"}, {"num": 17, "title": "Gợi Ý Địa Điểm Theo Nhu Cầu & Tình Huống", "file": "hanoi_food_assets/slides/slide_17.png"}, {"num": 18, "title": "Nguồn Dữ Liệu Tham Khảo & Tra Cứu Trực Tuyến", "file": "hanoi_food_assets/slides/slide_18.png"}];
+
+    let currentFilters = {
+      cat: 'all',
+      district: 'all',
+      price: 'all',
+      search: ''
+    };
+
+    let currentSlideIndex = 0;
+
+    // Initialize DOM
+    document.addEventListener('DOMContentLoaded', () => {
+      renderEateries();
+      renderTop10();
+      setupFilters();
+      setupSearch();
+      setupThemeToggle();
+      setupKeyboardNav();
+      renderThumbs();
+    });
+
+    // Render Eateries Grid
+    function renderEateries() {
+      const grid = document.getElementById('eateriesGrid');
+      grid.innerHTML = '';
+
+      const filtered = eateries.filter(item => {
+        // Category
+        if (currentFilters.cat !== 'all' && item.category !== currentFilters.cat) return false;
+        // District
+        if (currentFilters.district !== 'all' && item.district !== currentFilters.district) return false;
+        // Price
+        if (currentFilters.price !== 'all' && item.price_tier !== currentFilters.price) return false;
+        // Search
+        if (currentFilters.search) {
+          const q = currentFilters.search.toLowerCase();
+          const matchName = item.name.toLowerCase().includes(q);
+          const matchDish = item.dish.toLowerCase().includes(q);
+          const matchAddr = item.address.toLowerCase().includes(q);
+          const matchWhy = item.why.toLowerCase().includes(q);
+          const matchTags = item.tags.some(t => t.toLowerCase().includes(q));
+          if (!matchName && !matchDish && !matchAddr && !matchWhy && !matchTags) return false;
+        }
+        return true;
+      });
+
+      document.getElementById('matchCount').textContent = filtered.length;
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div style="grid-column: 1 / -1; text-align: center; padding: 4rem 1rem; color: var(--muted);">
+            <div style="font-size: 3rem; margin-bottom: 0.8rem">🍲</div>
+            <h3 style="font-size: 1.3rem; font-weight: 700; color: var(--dark); margin-bottom: 0.4rem">Không tìm thấy quán ăn phù hợp</h3>
+            <p>Vui lòng thử tìm từ khóa khác hoặc xóa bớt tiêu chí lọc.</p>
+            <button class="btn btn-primary" style="margin-top: 1rem" onclick="resetFilters()">Đặt Lại Bộ Lọc</button>
+          </div>
+        `;
+        return;
+      }
+
+      filtered.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'eatery-card';
+        card.id = `eatery-${item.id}`;
+
+        const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.maps_query)}`;
+
+        card.innerHTML = `
+          <div class="card-thumb-wrap">
+            <img src="${item.image}" alt="${item.name}" loading="lazy">
+            <div class="card-top-badges">
+              <span class="badge-tag ${item.badge_type}">${item.badge}</span>
+              <span class="rating-pill">⭐ ${item.rating}</span>
+            </div>
+            <div class="card-price-overlay">${item.price}</div>
+          </div>
+          <div class="card-body">
+            <div class="card-num-title">
+              <span class="card-num">${String(item.id).padStart(2, '0')}.</span>
+              <h3 class="card-title">${item.name}</h3>
+            </div>
+            <span class="card-cat-badge">${item.category_name} • ${item.district}</span>
+
+            <div class="card-info-list">
+              <div class="info-item">
+                <span class="info-icon">📍</span>
+                <span class="info-text"><strong>Địa chỉ:</strong> ${item.address}</span>
+              </div>
+              <div class="info-item">
+                <span class="info-icon">🍲</span>
+                <span class="info-text"><strong>Món nổi bật:</strong> ${item.dish}</span>
+              </div>
+              <div class="info-item">
+                <span class="info-icon">🕒</span>
+                <span class="info-text"><strong>Giờ mở cửa:</strong> ${item.hours}</span>
+              </div>
+              <div class="info-item">
+                <span class="info-icon">📊</span>
+                <span class="info-text"><strong>Đánh giá:</strong> ${item.rating}/5 ⭐ (${item.reviews} lượt review)</span>
+              </div>
+            </div>
+
+            <div class="card-why-box">
+              <strong>Vì sao đáng thử:</strong>
+              ${item.why}
+            </div>
+
+            <div class="card-tags">
+              ${item.tags.map(t => `<span class="tag-chip">#${t}</span>`).join('')}
+            </div>
+
+            <div class="card-actions">
+              <a href="${mapsUrl}" target="_blank" rel="noopener noreferrer" class="btn-maps">
+                📍 Chỉ Đường Google Maps
+              </a>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // Render Top 10 Table
+    function renderTop10() {
+      const tbody = document.getElementById('rankingTableBody');
+      tbody.innerHTML = '';
+
+      top10.forEach((item, idx) => {
+        const tr = document.createElement('tr');
+        const rankClass = idx === 0 ? 'top1' : idx === 1 ? 'top2' : idx === 2 ? 'top3' : '';
+        const medal = idx === 0 ? '🥇 ' : idx === 1 ? '🥈 ' : idx === 2 ? '🥉 ' : '';
+
+        tr.innerHTML = `
+          <td class="rank-cell ${rankClass}">${medal}${item.rank}</td>
+          <td><strong>${item.name}</strong></td>
+          <td>${item.dish}</td>
+          <td style="text-align:center; font-weight:700; color:var(--emerald)">${item.price}</td>
+          <td>${item.rating}</td>
+          <td><span style="font-weight:700; color:var(--amber)">${item.tier}</span></td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Setup Filters
+    function setupFilters() {
+      document.querySelectorAll('.pill-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const type = btn.getAttribute('data-filter');
+          const val = btn.getAttribute('data-value');
+
+          // Toggle active within the same row
+          btn.parentElement.querySelectorAll('.pill-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          currentFilters[type] = val;
+          renderEateries();
+        });
+      });
+
+      document.getElementById('resetFiltersBtn').addEventListener('click', resetFilters);
+    }
+
+    function filterByCat(cat) {
+      currentFilters.cat = cat;
+      document.querySelectorAll('[data-filter="cat"]').forEach(b => {
+        if (b.getAttribute('data-value') === cat) b.classList.add('active');
+        else b.classList.remove('active');
+      });
+      renderEateries();
+      document.getElementById('catalog').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function resetFilters() {
+      currentFilters = {
+        cat: 'all',
+        district: 'all',
+        price: 'all',
+        search: ''
+      };
+      document.getElementById('searchInput').value = '';
+      document.querySelectorAll('.pill-btn').forEach(b => {
+        if (b.getAttribute('data-value') === 'all') b.classList.add('active');
+        else b.classList.remove('active');
+      });
+      renderEateries();
+    }
+
+    // Setup Search
+    function setupSearch() {
+      const search = document.getElementById('searchInput');
+      search.addEventListener('input', (e) => {
+        currentFilters.search = e.target.value.trim();
+        renderEateries();
+      });
+    }
+
+    // Theme Toggle
+    function setupThemeToggle() {
+      const toggle = document.getElementById('themeToggle');
+      toggle.addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        toggle.textContent = nextTheme === 'dark' ? '☀️' : '🌙';
+      });
+    }
+
+    // Slide Deck Modal Functions
+    function openSlideDeck(slideNumber = 1) {
+      currentSlideIndex = slideNumber - 1;
+      updateSlideView();
+      const modal = document.getElementById('slideDeckModal');
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeSlideDeck() {
+      const modal = document.getElementById('slideDeckModal');
+      modal.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function updateSlideView() {
+      if (currentSlideIndex < 0) currentSlideIndex = 0;
+      if (currentSlideIndex >= slides.length) currentSlideIndex = slides.length - 1;
+
+      const slide = slides[currentSlideIndex];
+      document.getElementById('currentSlideImg').src = slide.file;
+      document.getElementById('deckSlideTitle').textContent = `Slide ${slide.num}: ${slide.title}`;
+      document.getElementById('currentSlideNum').textContent = slide.num;
+      document.getElementById('totalSlideNum').textContent = slides.length;
+
+      // Update thumbs active state
+      document.querySelectorAll('.thumb-btn').forEach((t, i) => {
+        if (i === currentSlideIndex) {
+          t.classList.add('active');
+          t.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+        } else {
+          t.classList.remove('active');
+        }
+      });
+    }
+
+    function nextSlide() {
+      if (currentSlideIndex < slides.length - 1) {
+        currentSlideIndex++;
+        updateSlideView();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlideIndex > 0) {
+        currentSlideIndex--;
+        updateSlideView();
+      }
+    }
+
+    function renderThumbs() {
+      const strip = document.getElementById('thumbsStrip');
+      strip.innerHTML = '';
+      slides.forEach((s, i) => {
+        const btn = document.createElement('button');
+        btn.className = `thumb-btn ${i === 0 ? 'active' : ''}`;
+        btn.title = `Slide ${s.num}: ${s.title}`;
+        btn.innerHTML = `<img src="${s.file}" alt="Slide ${s.num}">`;
+        btn.addEventListener('click', () => {
+          currentSlideIndex = i;
+          updateSlideView();
+        });
+        strip.appendChild(btn);
+      });
+    }
+
+    function toggleFullscreen() {
+      const stage = document.getElementById('slideStage');
+      if (!document.fullscreenElement) {
+        stage.requestFullscreen().catch(err => alert(err.message));
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    function setupKeyboardNav() {
+      document.addEventListener('keydown', (e) => {
+        const modal = document.getElementById('slideDeckModal');
+        if (modal.classList.contains('active')) {
+          if (e.key === 'ArrowRight' || e.key === ' ') {
+            nextSlide();
+          } else if (e.key === 'ArrowLeft') {
+            prevSlide();
+          } else if (e.key === 'Escape') {
+            closeSlideDeck();
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>
